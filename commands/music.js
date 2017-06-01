@@ -1,3 +1,4 @@
+const youtubeStream = require('youtube-audio-stream');
 const Globals = require('../constantes.js');
 const Utils = require('../utils.js');
 const Commands = require('./commands.js');
@@ -17,9 +18,11 @@ module.exports = class music extends Commands {
                 if(currentChannel != null){
                   currentChannel.join()
                   .then(
-                    /*function(connection){
-                      connection.playConvertedStream(message.content);
-                    }*/
+                    function(connection){
+                      connection.playStream(youtubeStream(message.content)).on('end', function(){
+                        connection.disconnect();
+                      });
+                    }
                   )
                   .catch(
                     function(error){
