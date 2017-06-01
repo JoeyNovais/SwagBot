@@ -32,6 +32,11 @@ module.exports = class music extends Commands {
                 } else{
                   message.reply("You are not in a voice channel :(");
                 }
+            } else if (message.content === "stop") {
+              var currentChannel = Utils.isInVoiceChannel(message);
+              if(currentChannel != null){
+                  currentChannel.leave();
+              }
             }
         } catch (e) {
             console.log(e);
