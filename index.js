@@ -1,5 +1,6 @@
 const Discord = require('discord.js');
 const Music = require('./commands/music.js');
+const Troll = require('./commands/troll.js');
 const Globals = require('./constantes.js');
 const client = new Discord.Client();
 
@@ -13,6 +14,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     Music.parse(message);
+    Troll.parse(message);
 });
 
 client.login(Globals.token);
