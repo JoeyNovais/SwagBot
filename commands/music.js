@@ -26,6 +26,8 @@ module.exports = class music extends Commands {
                       console.log(error);
                     }
                   );
+                } else{
+                  message.reply("You are not in a voice channel :(");
                 }
             }
         } catch (e) {
