@@ -1,0 +1,45 @@
+{
+  "Commands": [{
+      "Name": "caddy",
+      "KeyWords": ["caddy", "caddie"],
+      "Definition": "Troll Eukray.",
+      "Usage": "caddy"
+    },
+    {
+      "Name": "ptikon",
+      "KeyWords": ["ptikon", "ptitkon", "pticon", "ptitcon"],
+      "Definition": "Troll Fudo.",
+      "Usage": "ptikon"
+    },
+    {
+      "Name": "grokon",
+      "KeyWords": ["grokon", "groskon", "grocon", "groscon"],
+      "Definition": "Troll Thorgrim.",
+      "Usage": "grokon"
+    },
+    {
+      "Name": "communication",
+      "KeyWords": ["communication", "communiquer", "communiqué", "juncan"],
+      "Definition": "Troll Olma.",
+      "Usage": "communication"
+    },
+    {
+      "Name": "code diokko",
+      "KeyWords": ["code diokko"],
+      "Definition": "Troll Diakka.",
+      "Usage": "code diokko"
+    },
+    {
+      "Name": "20M",
+      "KeyWords": ["20M"],
+      "Definition": "Troll Xugan.",
+      "Usage": "20M"
+    },
+    {
+      "Name": "collyre",
+      "KeyWords": ["collyre"],
+      "Definition": "Troll Zhatra.",
+      "Usage": "collyre"
+    }
+  ]
+}

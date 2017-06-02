@@ -1,0 +1,24 @@
+{
+  "Commands": [{
+      "Name": "play",
+      "KeyWords": ["play"],
+      "Definition": "Ajoute une musique dans la queue, et la joue.",
+      "Usage": "play https://www.youtube.com/watch?v=MYZ67-Sh7kM",
+      "Category": "music"
+    },
+    {
+      "Name": "stop",
+      "KeyWords": ["stop"],
+      "Definition": "Arrête la musique en cours.",
+      "Usage": "stop",
+      "Category": "music"
+    },
+    {
+      "Name": "next",
+      "KeyWords": ["next", "skip", "fskip"],
+      "Definition": "Passe à la prochaine chanson.",
+      "Usage": "next",
+      "Category": "music"
+    }
+  ]
+}
